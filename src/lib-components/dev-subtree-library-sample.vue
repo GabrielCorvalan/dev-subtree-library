@@ -14,7 +14,7 @@ export default /*#__PURE__*/defineComponent({
   },
   props: {
     initCounter: {
-      default: 5
+      default: 10
     }
   },
   computed: {
