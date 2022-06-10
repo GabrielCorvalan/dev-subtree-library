@@ -6,12 +6,16 @@ export default /*#__PURE__*/defineComponent({
   data() {
     return {
       counter: 5,
-      initCounter: 5,
       message: {
         action: null,
         amount: null,
       },
     };
+  },
+  props: {
+    initCounter: {
+      default: 10
+    }
   },
   computed: {
     changedBy() {
